@@ -22,6 +22,7 @@ public class Orange {
         driver.findElement(By.name("password")).sendKeys("admin123", Keys.ENTER);
         System.out.println("Navigate to Dashboard:" + driver.getTitle());
         Thread.sleep(5000);
+        System.out.println("Updated the code");
         driver.quit();
 
     }
